@@ -1,0 +1,16 @@
+.empty-list
+{
+    text-align: center;
+    padding: 2rem;
+}
+
+.empty-list img
+{
+    width: 25%;
+}
+
+.empty-list h2
+{
+    font-weight: normal;
+    color: grey;
+}

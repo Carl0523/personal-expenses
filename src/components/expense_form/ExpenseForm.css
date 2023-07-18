@@ -1,0 +1,91 @@
+.expense-form
+{
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    width: 50rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    padding: 1rem 1rem;
+}
+
+.expense-form h2
+{
+    margin: 0.75rem 0 2rem 0;
+    
+}
+
+.expense-form h2:hover
+{
+    cursor: default;
+}
+
+.expense-form__inputs
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+    text-align: left;
+}
+
+
+.expense-form__input label
+{
+    display:block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.expense-form__input input
+{
+    font:inherit;
+    padding: 0.75rem 0.75rem;
+    width: 20rem;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+
+
+.expense-form__button
+{
+    text-align: right;
+}
+
+button
+{
+    width: 160px;
+    color:white;
+    background-color: #35699c;
+    font:inherit;
+    cursor: pointer;
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+button:hover
+{
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+#add-btn
+{
+    margin: 1rem;
+}
+
+#cancel-btn 
+{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    margin: 0 1rem;
+}
+
+#submit-btn:hover
+{
+    border: 1px solid #0e7bc4;
+    transition: ease-out 0.4s;
+    box-shadow: inset 160px 0 0 0 #0e7bc4;
+}

@@ -1,0 +1,28 @@
+.expenses-filter {
+  padding: 0 1rem;
+}
+
+.expenses-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expenses-filter h2 {
+  margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+  font: inherit;
+  text-align: left;
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+  font-weight: 500;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.expenses-filter select:hover {
+  border: 2px solid black;
+}
